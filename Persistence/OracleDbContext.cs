@@ -11,7 +11,7 @@ public class OracleDbContext : DbContext
     public DbSet<ImageUrl> Images { get; set; }
     public DbSet<Publisher> Publishers { get; set; }
 
-    public OracleDbContext(DbContextOptions<OracleDbContext> options) : base()
+    public OracleDbContext(DbContextOptions<OracleDbContext> options) : base(options)
     {
 
     }
