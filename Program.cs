@@ -1,4 +1,4 @@
-namespace WebApplication1
+namespace MyLibrary
 {
     public class Program
     {
